@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./app/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Welcome to order a Pizza!</h1>
+            <div class="wrapper">
+                <div class="products">
+                    <div id="pizzas">
+                        <h2 class="pizza__type" >To select a Pizza type</h2>
+                        <label class="pizza__label" for="pizzas">Choose one of these options &#x2192;</label>
+                        <select class="pizza__select" name="pizzas" id="pizzas-option">
+                            <option value="false"></option>
+                            <option value="pepperoni">PEPPERONI</option>
+                            <option value="tomato">TOMOATO</option>
+                            <option value="chicago">CHICAGO</option>
+                            <option value="padellino">PADELLINO</option>
+                        </select>
+                        <span class="pepperoni" id="pizza">
+                        </span>
+                    </div>
+                    <div class="pieces">
+                        <h2 class="pieces__text">How many do you want to order?</h2>
+                        <select name="pieces" id="pieces__select">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10">10</option>
+                        </select>
+                    </div>
+                    <div class="ingredients">
+                        <h2 class="add__text">You can add Pizza Toppings</h2>
+                        <div class="ingredient">
+                            <span>
+                                <label for="cheese">Cheese</label>
+                                <input type="checkbox" name="cheese" id="cheese">
+                            </span>
+    
+                            <span>
+                                <label for="peppers">Peppers</label>
+                                <input type="checkbox" name="peppers" id="peppers">
+                            </span>
+    
+                            <span>
+                                <label for="olives">Olives</label>
+                                <input type="checkbox" name="olives" id="olives">
+                            </span>
+    
+                            <span>
+                                <label for="beans">Beans</label>
+                                <input type="checkbox" name="beans" id="beans">
+                            </span>
+                        </div>
+                    </div>
+                    <div class="drinks">
+                        <div class="drinks__text">
+                            <h2>Choose one of these for drink</h2>
+                        </div>
+                        <div class="drink">
+                            <span>
+                                <label for="blacktea">Black Tea</label>
+                                <input type="checkbox" name="blacktea" id="blacktea">
+                            </span>
+                            <span>
+                                <label for="blacktea">Green Tea</label>
+                                <input type="checkbox" name="greentea" id="greentea">
+                            </span>
+                            <span>
+                                <label for="blacktea">Cappucino</label>
+                                <input type="checkbox" name="cappucino" id="cappucino">
+                            </span>
+                            <span>
+                                <label for="blacktea">Mojito</label>
+                                <input type="checkbox" name="mojito" id="mojito">
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="orders" id="orders"></div>
+            </div>
+        </div>
+    </header>
+    <script src="./app/main.js"></script>
+</body>
+</html>
