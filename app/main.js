@@ -1,31 +1,5 @@
 "use strict";
 
-/// PIZZA TYPES = PEPPERONI , TOMOATO , CHICAGO , PADELLINO
-// const pepperoni = {
-//     id: 1,
-//     type: "PEPPERONI",
-//     price: 1.40,
-//     img: "./assets/pepperoni.webp"
-// }
-// const chicago = {
-//     id: 2,
-//     type: "CHICAGO",
-//     price: 2.10,
-//     img: "./assets/chicago.jpg"
-// }
-// const tomato = {
-//     id: 3,
-//     type: "TOMATO",
-//     price: 1.10,
-//     img: "./assets/tomato.jpg"
-// }
-// const paddelino = {
-//     id: 4,
-//     type: "PADELLINO",
-//     price: 1.5,
-//     img: "./assets/padellino.jpeg"
-// }
-
 const pizzaTypes = {
     pepperoni: {
         id: 1,
